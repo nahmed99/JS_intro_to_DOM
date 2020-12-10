@@ -22,8 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const redLitsItem = document.querySelector('li.red');
 
     redLitsItem.textContent = "RED!";
+    redLitsItem.classList.add('bold'); //refers to an existing class in the CSS, and applies it to the redListItem we have created.
 
-    
 
 
 })
