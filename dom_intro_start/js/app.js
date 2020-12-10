@@ -36,6 +36,18 @@ document.addEventListener('DOMContentLoaded', () => {
     listParent.appendChild(newListItem); // 'Attach' the newly created DOM element to the ul tag.
     
 
+    /*
+
+        You will probably using the following 'functions' the most:
+
+        document.querySelector()
+        document.createElement()
+
+        element_name.appendChild()
+        DOM_as_an_element.appendChild()
+
+    */
+
 
 })
 
