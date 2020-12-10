@@ -1,4 +1,4 @@
-// Wait for the DOM to be loaded before running the JS code.
+// Wait for the DOM to be loaded before running the JS code; using DOMContentLoaded...
 
 // Manipulate the h1 tag - this will only change the first one
 document.addEventListener('DOMContentLoaded', () => {
