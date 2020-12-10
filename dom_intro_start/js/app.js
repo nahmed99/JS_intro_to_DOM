@@ -25,6 +25,17 @@ document.addEventListener('DOMContentLoaded', () => {
     redLitsItem.classList.add('bold'); //refers to an existing class in the CSS, and applies it to the redListItem we have created.
 
 
+    // Make new DOM elements
+
+    const newListItem = document.createElement('li');
+    newListItem.textContent = 'Purple';
+    newListItem.classList.add('purple'); //applying an existing element
+
+    // To add new DOM element, we need to 'grab' the element we want to append it to
+    const listParent = document.querySelector('ul'); //Grabbing the existing ul
+    listParent.appendChild(newListItem); // 'Attach' the newly created DOM element to the ul tag.
+    
+
 
 })
 
